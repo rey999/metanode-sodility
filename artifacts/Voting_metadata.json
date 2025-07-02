@@ -6,30 +6,6 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"stateMutability": "nonpayable",
-				"type": "constructor"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "string",
-						"name": "str",
-						"type": "string"
-					}
-				],
-				"name": "RevertString",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "pure",
-				"type": "function"
-			},
-			{
 				"inputs": [
 					{
 						"internalType": "string",
@@ -68,48 +44,10 @@
 				"type": "function"
 			},
 			{
-				"inputs": [
-					{
-						"internalType": "bytes1",
-						"name": "",
-						"type": "bytes1"
-					}
-				],
-				"name": "map",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
 				"inputs": [],
 				"name": "resetVotes",
 				"outputs": [],
 				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "string",
-						"name": "s",
-						"type": "string"
-					}
-				],
-				"name": "romanToInt",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
 				"type": "function"
 			},
 			{
@@ -179,11 +117,11 @@
 	},
 	"sources": {
 		"Voting.sol": {
-			"keccak256": "0xd764e4dfeefe97d9a74bd6b8f88201f81c17bacb80da8852881731037e17e79f",
+			"keccak256": "0x4dc1fd94237e8b6ee74714db91418d945208e10e488343b61df94570854a8b0f",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://fb4abbc926ebe871516c22e3556854ddc7162f7ed7a65a54e37ec99c17449646",
-				"dweb:/ipfs/QmcT6qrkLcdnB2KSbCZTmwMp2FHVAUqJ3w1hM4poTDW6WN"
+				"bzz-raw://864379675dae53fe4c286b811310d63cea78226f88a9c8a5d6dfcd9b7731b634",
+				"dweb:/ipfs/QmX7hsnrWdVMEBLs3hLy8paNa774GArHrjycDBanN9pBg8"
 			]
 		}
 	},
