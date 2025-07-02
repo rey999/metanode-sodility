@@ -6,6 +6,30 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "str",
+						"type": "string"
+					}
+				],
+				"name": "RevertString",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "string",
@@ -19,6 +43,25 @@
 						"internalType": "int256",
 						"name": "",
 						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "num",
+						"type": "uint256"
+					}
+				],
+				"name": "intToRoman",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
 					}
 				],
 				"stateMutability": "view",
@@ -44,10 +87,48 @@
 				"type": "function"
 			},
 			{
+				"inputs": [
+					{
+						"internalType": "bytes1",
+						"name": "",
+						"type": "bytes1"
+					}
+				],
+				"name": "map",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "resetVotes",
 				"outputs": [],
 				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "s",
+						"type": "string"
+					}
+				],
+				"name": "romanToInt",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
@@ -117,11 +198,11 @@
 	},
 	"sources": {
 		"Voting.sol": {
-			"keccak256": "0x4dc1fd94237e8b6ee74714db91418d945208e10e488343b61df94570854a8b0f",
+			"keccak256": "0x4dd481e6ef66c318a19c7cc2ae25deb7b5c75ada3b5ba204bb4dc486e42750ff",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://864379675dae53fe4c286b811310d63cea78226f88a9c8a5d6dfcd9b7731b634",
-				"dweb:/ipfs/QmX7hsnrWdVMEBLs3hLy8paNa774GArHrjycDBanN9pBg8"
+				"bzz-raw://f0688a41e89283c1679b7c7c27152a5370fae5ebe9969a9234ee862ee4cddac2",
+				"dweb:/ipfs/QmP2pyS4QVfsj19AvBWtdV2awro3P4o5kKdLWY1i39JHHP"
 			]
 		}
 	},
